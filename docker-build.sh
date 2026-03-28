@@ -32,11 +32,12 @@ fi
 apt-get update
 apt-get install -qy --no-install-recommends \
     apt-transport-https \
+    ca-certificates \
     curl \
     dirmngr \
     gpg \
     gpg-agent \
-    openjdk-17-jre-headless \
+    openjdk-25-jre-headless \
     procps \
     libcap2-bin \
     tzdata
